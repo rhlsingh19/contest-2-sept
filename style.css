@@ -1,0 +1,39 @@
+/* Apply your global styles here */
+
+/* Header Styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff; /* You can specify the background color */
+    z-index: 100;
+}
+
+/* Hero Section Styles */
+.hero {
+    display: flex;
+    align-items: center;
+    background-image: url('hero-background.jpg'); /* Set your hero background image */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Latest Blog Section Styles */
+.latest-blog {
+    display: flex;
+    align-items: center;
+}
+
+/* More Blogs Section Styles */
+.more-blogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333333; /* You can specify the background color */
+    color: #ffffff; /* You can specify the text color */
+}
